@@ -1,1 +1,1 @@
-User-agent: * Disallow: Sitemap: https://janithamalith.github.io/janithamalith//sitemap.xml
+User-agent: * Disallow: Sitemap: https://janithamalith.github.io/sitemap.xml

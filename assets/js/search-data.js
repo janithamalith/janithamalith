@@ -7,35 +7,35 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/janithamalith/";
+      window.location.href = "/";
     },
   },{id: "nav-blog",
           title: "blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/janithamalith/blog/";
+            window.location.href = "/blog/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/janithamalith/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "cv",
           description: "Here, you can explore my academic background, research interests, teaching experience, and professional achievements. I hold a Master&#39;s degree from the University of Hawai’i, where I had the privilege of working under the guidance of Professor David Ross. For a detailed overview of my qualifications, please feel free to click on the PDF button.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/janithamalith/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "nav-teaching",
           title: "teaching",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/janithamalith/teaching/";
+            window.location.href = "/teaching/";
           },
         },{id: "post-a-problem-of-skolem-part-01",
       
@@ -45,7 +45,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/janithamalith/blog/2025/math/";
+          window.location.href = "/blog/2025/math/";
         
       },
     },{id: "news-a-simple-inline-announcement",
@@ -55,7 +55,7 @@ ninja.data = [{
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/janithamalith/news/announcement_2/";
+              window.location.href = "/news/announcement_2/";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
@@ -63,17 +63,17 @@ ninja.data = [{
           title: 'A Monadic Logic for Capacity Quantifiers',
           description: "Master&#39;s Project",
           section: "Projects",handler: () => {
-              window.location.href = "/janithamalith/projects/1_project/";
+              window.location.href = "/projects/1_project/";
             },},{id: "projects-formalizing-some-results-related-to-ordered-and-unordered-pairs",
           title: 'Formalizing Some Results Related to Ordered and Unordered Pairs',
           description: "Class Project",
           section: "Projects",handler: () => {
-              window.location.href = "/janithamalith/projects/2_project/";
+              window.location.href = "/projects/2_project/";
             },},{id: "projects-parking-functions-and-labelled-trees",
           title: 'Parking Functions and Labelled Trees',
           description: "Class Project",
           section: "Projects",handler: () => {
-              window.location.href = "/janithamalith/projects/3_project/";
+              window.location.href = "/projects/3_project/";
             },},{
         id: 'social-email',
         title: 'email',
@@ -93,7 +93,7 @@ ninja.data = [{
         title: 'RSS Feed',
         section: 'Socials',
         handler: () => {
-          window.open("/janithamalith//feed.xml", "_blank");
+          window.open("/feed.xml", "_blank");
         },
       },{
         id: 'social-scholar',
