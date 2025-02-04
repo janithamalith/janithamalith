@@ -12,4 +12,4 @@ giscus_comments: false
     This was a group project. We formalized the proofs of several theorems related to ordered and unordered pairs in Chapter I of Kunen’s textbook The Foundations of Mathematics.
 </p>
 
-The project can be viewed <a href="/assets/LEAN_PROJECT.pdf">here.</a>
+The project can be viewed <a href="{{ site.baseurl }}/assets/LEAN_PROJECT.pdf">here.</a>

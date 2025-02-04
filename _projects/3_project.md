@@ -14,4 +14,4 @@ natorics”. We fill in the details of the proofs and construct several examples
 content better.
 </p>
 
-The project can be viewed <a href="/assets/Parking_Functions_And_Labeled_Trees-JM.pdf">here.</a>
+The project can be viewed <a href="{{ site.baseurl }}/assets/Parking_Functions_And_Labeled_Trees-JM.pdf">here.</a>

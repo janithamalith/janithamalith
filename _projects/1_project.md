@@ -17,4 +17,4 @@ related_publications: true
     we conjecture that these theorems can be derived using nonstandard analysis as well.
 </p>
 
-The project can be viewed <a href="/assets/thesis_Janitha.pdf">here.</a>
+The project can be viewed <a href="{{ site.baseurl }}/assets/thesis_Janitha.pdf">here.</a>
