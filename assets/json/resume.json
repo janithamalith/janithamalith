@@ -37,9 +37,8 @@
       "endDate": "2019",
       "summary": "Conducted tutorial classes, administered exams and graded worheets and homework, held office hours at the Department of Mathematics. Assistant Lecturer for Financial Mathematics courses."
     }
-
   ],
-  
+
   "education": [
     {
       "institution": "University of Hawai'i at M\u0101noa",
@@ -49,7 +48,6 @@
       "studyType": "MA",
       "startDate": "2019",
       "endDate": "2024"
-      
     },
 
     {
@@ -60,10 +58,9 @@
       "studyType": "BSC (Honors) Mathematics",
       "startDate": "2014",
       "endDate": "2018"
-      
     }
   ],
-  
+
   "certificates": [
     {
       "name": "Machine Learning",
@@ -73,7 +70,7 @@
       "icon": "fa-solid fa-location-dot"
     }
   ],
-  
+
   "skills": [
     {
       "name": "Physics",
@@ -89,7 +86,7 @@
       ]
     }
   ],
- 
+
   "interests": [
     {
       "name": "Physics",
@@ -121,5 +118,4 @@
       "reference": "Science, Mathematics, and Computing Faculty, Bard College at Simon’s Rock, Great Barrington, MA, USA."
     }
   ]
-  
 }

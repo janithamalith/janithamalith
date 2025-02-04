@@ -2,12 +2,10 @@
 layout: page
 permalink: /teaching/
 title: "teaching"
-description: 
+description:
 nav: true
 nav_order: 6
 ---
-
-
 
 ## University of Hawai'i
 
