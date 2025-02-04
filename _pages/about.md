@@ -26,4 +26,5 @@ profile:
 #limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm an aspiring mathematician with a passion for mathematical logic and its applications in mathematics and computer science. I'm actively seeking PhD opportunities in mathematical logic and computer science. I hold a Master's degree from the University of Hawai'i, where my advisor was <a href="https://math.hawaii.edu/~ross/">Professor David Ross</a>. My research focused on Model Theory and its applications, particularly Nonstandard Analysis and Probability logics. My master's project was titled <em>"A Monadic Logic for Capacity Quantifiers</em>." Prior to exploring probability logics, I worked on Skolem's problem of exponential functions.
+
+I'm an aspiring mathematician with a strong passion for mathematical logic and its applications in both mathematics and computer science. Currently, I'm actively seeking PhD opportunities in these fields. I hold a Master's degree from the University of Hawai'i, where my advisor was <a href="https://math.hawaii.edu/~ross/">Professor David Ross</a>. My research focused on Model Theory and its applications, particularly Nonstandard Analysis and Probability logics. My master's project was titled <em>"A Monadic Logic for Capacity Quantifiers</em>." Prior to exploring probability logics, I worked on Skolem's problem of exponential functions.
