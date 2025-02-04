@@ -1,15 +1,15 @@
 GIT
   remote: https://github.com/RobertoJBeltran/jekyll-terser.git
-  revision: 2f737004fe4732b92021c84e4de71e6a8585ff01
+  revision: 1085bf66d692799af09fe39f8162a1e6e42a3cc4
   specs:
-    jekyll-terser (0.2.2)
+    jekyll-terser (0.2.3)
       jekyll (>= 0.10.0)
       terser (>= 1.0.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.2.2.1)
+    activesupport (8.0.1)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -21,6 +21,7 @@ GEM
       minitest (>= 5.1)
       securerandom (>= 0.3)
       tzinfo (~> 2.0, >= 2.0.5)
+      uri (>= 0.13.1)
     addressable (2.8.7)
       public_suffix (>= 2.0.2, < 7.0)
     base64 (0.2.0)
@@ -29,8 +30,13 @@ GEM
       latex-decode (~> 0.0)
       racc (~> 1.7)
     bigdecimal (3.1.9)
-    citeproc (1.0.10)
+    citeproc (1.1.0)
+      date
+      forwardable
+      json
       namae (~> 1.0)
+      observer (< 1.0)
+      open-uri (< 1.0)
     citeproc-ruby (1.1.14)
       citeproc (~> 1.0, >= 1.0.9)
       csl (~> 1.6)
@@ -50,6 +56,7 @@ GEM
       addressable
     cssminify2 (2.0.1)
     csv (3.3.2)
+    date (3.4.1)
     deep_merge (1.2.2)
     drb (2.2.1)
     em-websocket (0.5.3)
@@ -61,14 +68,17 @@ GEM
     feedjira (3.2.4)
       loofah (>= 2.3.1, < 3)
       sax-machine (>= 1.0, < 2)
-    ffi (1.17.1-aarch64-linux)
+    ffi (1.17.1-aarch64-linux-gnu)
     ffi (1.17.1-aarch64-linux-musl)
-    ffi (1.17.1-arm-linux)
+    ffi (1.17.1-arm-linux-gnu)
     ffi (1.17.1-arm-linux-musl)
     ffi (1.17.1-arm64-darwin)
+    ffi (1.17.1-x64-mingw-ucrt)
     ffi (1.17.1-x86_64-darwin)
-    ffi (1.17.1-x86_64-linux)
+    ffi (1.17.1-x86_64-linux-gnu)
     ffi (1.17.1-x86_64-linux-musl)
+    fiddle (1.1.6)
+    forwardable (1.3.3)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
     google-protobuf (4.29.3)
@@ -78,6 +88,9 @@ GEM
       bigdecimal
       rake (>= 13)
     google-protobuf (4.29.3-arm64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.29.3-x64-mingw-ucrt)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.29.3-x86_64-darwin)
@@ -95,19 +108,22 @@ GEM
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
-    i18n (1.14.6)
+    i18n (1.14.7)
       concurrent-ruby (~> 1.0)
-    jekyll (4.3.4)
+    jekyll (4.4.1)
       addressable (~> 2.4)
+      base64 (~> 0.2)
       colorator (~> 1.0)
+      csv (~> 3.0)
       em-websocket (~> 0.5)
       i18n (~> 1.0)
       jekyll-sass-converter (>= 2.0, < 4.0)
       jekyll-watch (~> 2.0)
+      json (~> 2.6)
       kramdown (~> 2.3, >= 2.3.1)
       kramdown-parser-gfm (~> 1.0)
       liquid (~> 4.0)
-      mercenary (>= 0.3.6, < 0.5)
+      mercenary (~> 0.3, >= 0.3.6)
       pathutil (~> 0.9)
       rouge (>= 3.0, < 5.0)
       safe_yaml (~> 1.0)
@@ -135,8 +151,8 @@ GEM
     jekyll-paginate-v2 (3.0.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-regex-replace (1.1.0)
-    jekyll-sass-converter (3.0.0)
-      sass-embedded (~> 1.54)
+    jekyll-sass-converter (3.1.0)
+      sass-embedded (~> 1.75)
     jekyll-scholar (7.1.3)
       bibtex-ruby (~> 6.0)
       citeproc-ruby (~> 1.0)
@@ -175,16 +191,34 @@ GEM
     matrix (0.4.2)
     mercenary (0.4.0)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.8)
     minitest (5.25.4)
     multi_xml (0.7.1)
       bigdecimal (~> 3.1)
     namae (1.2.0)
       racc (~> 1.7)
-    nokogiri (1.18.2)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.18.2-aarch64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.2-aarch64-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.2-arm-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.2-arm-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.2-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.2-x64-mingw-ucrt)
+      racc (~> 1.4)
+    nokogiri (1.18.2-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.2-x86_64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.2-x86_64-linux-musl)
       racc (~> 1.4)
     observer (0.1.2)
+    open-uri (0.5.0)
+      stringio
+      time
+      uri
     ostruct (0.6.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -197,33 +231,39 @@ GEM
     rexml (3.4.0)
     rouge (4.5.1)
     safe_yaml (1.0.5)
-    sass-embedded (1.83.4-aarch64-linux)
+    sass-embedded (1.83.4-aarch64-linux-gnu)
       google-protobuf (~> 4.29)
     sass-embedded (1.83.4-aarch64-linux-musl)
       google-protobuf (~> 4.29)
-    sass-embedded (1.83.4-arm-linux)
+    sass-embedded (1.83.4-arm-linux-gnueabihf)
       google-protobuf (~> 4.29)
     sass-embedded (1.83.4-arm-linux-musleabihf)
       google-protobuf (~> 4.29)
     sass-embedded (1.83.4-arm64-darwin)
       google-protobuf (~> 4.29)
+    sass-embedded (1.83.4-x64-mingw-ucrt)
+      google-protobuf (~> 4.29)
     sass-embedded (1.83.4-x86_64-darwin)
       google-protobuf (~> 4.29)
-    sass-embedded (1.83.4-x86_64-linux)
+    sass-embedded (1.83.4-x86_64-linux-gnu)
       google-protobuf (~> 4.29)
     sass-embedded (1.83.4-x86_64-linux-musl)
       google-protobuf (~> 4.29)
     sax-machine (1.3.2)
     securerandom (0.4.1)
+    stringio (3.1.2)
     terminal-table (3.0.2)
       unicode-display_width (>= 1.1.1, < 3)
-    terser (1.2.4)
+    terser (1.2.5)
       execjs (>= 0.3.0, < 3)
+    time (0.4.1)
+      date
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     uglifier (4.2.1)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.6.0)
+    uri (1.0.2)
     webrick (1.9.1)
 
 PLATFORMS
@@ -235,6 +275,7 @@ PLATFORMS
   arm-linux-musl
   arm-linux-musleabihf
   arm64-darwin
+  x64-mingw-ucrt
   x86_64-darwin
   x86_64-linux
   x86_64-linux
@@ -245,6 +286,7 @@ DEPENDENCIES
   classifier-reborn
   css_parser
   feedjira
+  fiddle
   httparty
   jekyll (~> 4.0)
   jekyll-archives
