@@ -36,5 +36,5 @@ group :other_plugins do
 end
 
 # Specify the version of jekyll
-gem "jekyll", "~> 4.0"
-gem "bundler", "~> 2.6"
+gem "jekyll", "~> 4.4.0"
+gem "bundler", "~> 2.6.2"
