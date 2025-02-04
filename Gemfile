@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'jekyll'
-
 # Core plugins that directly affect site building
 group :jekyll_plugins do
     gem 'jekyll-archives'
@@ -36,3 +34,7 @@ group :other_plugins do
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
 end
+
+# Specify the version of jekyll
+gem "jekyll", "~> 4.0"
+gem "bundler", "~> 2.6"
