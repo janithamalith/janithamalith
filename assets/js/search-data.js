@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/janithamalith/teaching/";
           },
-        },{id: "post-a-problem-of-skolem-part-01",
+        },{id: "post-natural-sums-of-ordinals",
+      
+        title: "Natural Sums of Ordinals",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/janithamalith/blog/2025/math/";
+        
+      },
+    },{id: "post-a-problem-of-skolem-part-01",
       
         title: "A Problem of Skolem - Part 01",
       
