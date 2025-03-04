@@ -70,21 +70,46 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-a-monadic-logic-for-capacity-quantifiers",
+          section: "News",},{id: "projects-the-alpha-theory",
+          title: 'The Alpha Theory',
+          description: "Class Project",
+          section: "Projects",handler: () => {
+              window.location.href = "/janithamalith/projects/AlphaTheory/";
+            },},{id: "projects-a-monadic-logic-for-capacity-quantifiers",
           title: 'A Monadic Logic for Capacity Quantifiers',
           description: "Master&#39;s Project",
           section: "Projects",handler: () => {
-              window.location.href = "/janithamalith/projects/1_project/";
+              window.location.href = "/janithamalith/projects/CapacityQuantifiersThesis/";
+            },},{id: "projects-finite-model-property-of-s5",
+          title: 'Finite Model Property of S5',
+          description: "UH Logic Seminar",
+          section: "Projects",handler: () => {
+              window.location.href = "/janithamalith/projects/FMPofS5/";
             },},{id: "projects-formalizing-some-results-related-to-ordered-and-unordered-pairs",
           title: 'Formalizing Some Results Related to Ordered and Unordered Pairs',
           description: "Class Project",
           section: "Projects",handler: () => {
-              window.location.href = "/janithamalith/projects/2_project/";
+              window.location.href = "/janithamalith/projects/KunenLean/";
+            },},{id: "projects-skolem-39-s-problem-of-exponential-functions",
+          title: 'Skolem&amp;#39;s Problem of Exponential Functions',
+          description: "Class Project",
+          section: "Projects",handler: () => {
+              window.location.href = "/janithamalith/projects/Levitz/";
             },},{id: "projects-parking-functions-and-labelled-trees",
           title: 'Parking Functions and Labelled Trees',
           description: "Class Project",
           section: "Projects",handler: () => {
-              window.location.href = "/janithamalith/projects/3_project/";
+              window.location.href = "/janithamalith/projects/ParkingFunctions/";
+            },},{id: "projects-probability-logic",
+          title: 'Probability Logic',
+          description: "UH Logic Seminar",
+          section: "Projects",handler: () => {
+              window.location.href = "/janithamalith/projects/ProbabilityLogic/";
+            },},{id: "projects-surreal-numbers",
+          title: 'Surreal Numbers',
+          description: "Class Project",
+          section: "Projects",handler: () => {
+              window.location.href = "/janithamalith/projects/SurrealNumbers/";
             },},{
         id: 'social-email',
         title: 'email',
