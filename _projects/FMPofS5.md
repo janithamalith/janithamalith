@@ -12,4 +12,4 @@ related_publications: true
     I discussed the finite model property of the modal logic system S5 at the University of Hawaii's logic seminar.
 </p>
 
-The slides can be viewed <a href="{{ site.baseurl }}/assets/FMPofS5.pdf">here.</a>
+The slides can be viewed <a href="{{ site.baseurl }}/assets/FMP_of_S5.pdf">here.</a>
