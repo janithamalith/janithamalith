@@ -45,7 +45,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/janithamalith/blog/2025/math/";
+          window.location.href = "/janithamalith/blog/2025/math2/";
         
       },
     },{id: "post-a-problem-of-skolem-part-01",
