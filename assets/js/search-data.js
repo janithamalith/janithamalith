@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/janithamalith/teaching/";
           },
-        },{id: "post-natural-sums-of-ordinals",
+        },{id: "post-lean-prover",
+      
+        title: "Lean Prover",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/janithamalith/blog/2025/math3/";
+        
+      },
+    },{id: "post-natural-sums-of-ordinals",
       
         title: "Natural Sums of Ordinals",
       
