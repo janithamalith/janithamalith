@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/janithamalith/teaching/";
           },
-        },{id: "post-lean-prover",
+        },{id: "post-the-tarski-vaught-test",
+      
+        title: "The Tarski-Vaught Test",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/janithamalith/blog/2025/Tarski-Vaught/";
+        
+      },
+    },{id: "post-lean-prover",
       
         title: "Lean Prover",
       
