@@ -81,6 +81,17 @@ ninja.data = [{
           window.location.href = "/janithamalith/blog/2025/math/";
         
       },
+    },{id: "post-a-problem-of-skolem-part-01",
+      
+        title: "A Problem of Skolem - Part 01",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/janithamalith/blog/2025/Skolem_1/";
+        
+      },
     },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
