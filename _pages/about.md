@@ -27,7 +27,17 @@ profile:
 ---
 
 
-I'm an aspiring mathematician with a strong passion for mathematical logic and its applications in both mathematics and computer science. Currently, I'm actively seeking PhD opportunities in these fields. I hold a Master's degree from the University of Hawai'i, where my advisor was <a href="https://math.hawaii.edu/~ross/">Professor David Ross</a>. My research focused on Model Theory and its applications, particularly Nonstandard Analysis and Probability logics. My master's project was titled <em>"A Monadic Logic for Capacity Quantifiers</em>." Prior to exploring probability logics, I worked on Skolem's problem of exponential functions.
+<p align="justify">
+    I'm an aspiring mathematical logician interested in nonclassical logics, their proof theory, formalization, and automation. My current research interests include intuitionistic and modal logics, interactive theorem proving, and the mechanization of mathematics using proof assistants such as Lean and Coq.
+</p>
+
+<p align="justify">
+    I hold a Master's degree from the University of Hawai'i, where I was advised by <a href="https://math.hawaii.edu/~ross/">Professor David Ross</a>. During my master's, I worked on topics in model theory and its applications. Since then, my interests have shifted toward proof theory, formal methods, and the formalization of mathematics.
+</p>
+
+<p align="justify">
+    I'm currently seeking PhD opportunities in these areas and am excited by research at the intersection of logic, mathematics, and computer science.
+</p>
 
 
 <footer style="margin-top: 150px; text-align: center;">
